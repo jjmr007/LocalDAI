@@ -1,0 +1,493 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang8202{\fonttbl{\f0\fmodern\fprq1 Lucida Console;}{\f1\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red0\green191\blue0;\red191\green0\blue191;\red191\green191\blue0;\red0\green191\blue191;\red191\green0\blue0;\red64\green255\blue255;\red64\green255\blue64;\red0\green0\blue255;\red255\green64\blue64;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\sa200\sl276\slmult1\cf1\lang10\f0\fs18 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\par
+\cf0 $ npm init\par
+This utility will walk you through creating a package.json file.\par
+It only covers the most common items, and tries to guess sensible defaults.\par
+\par
+See `npm help json` for definitive documentation on these fields\par
+and exactly what they do.\par
+\par
+Use `npm install <pkg>` afterwards to install a package and\par
+save it as a dependency in the package.json file.\par
+\par
+Press ^C at any time to quit.\par
+package name: (localdai)\par
+version: (1.0.0) 0.1.0\par
+description: This is an exercise to transform localETH into localDAI\par
+entry point: (index.js)\par
+test command:\par
+git repository:\par
+keywords:\par
+author: Club de Letras\par
+license: (ISC) GNU GPLv3\par
+Sorry, license should be a valid SPDX license expression (without "LicenseRef"), "UNLICENSED", or "SEE LICENSE IN <filename>" and license is similar to the valid expression "GPL-3.0-or-later".\par
+license: (ISC) AGPL-3.0-only\par
+About to write to C:\\Users\\MultiEBD\\Desktop\\CODER\\LocalDAI\\package.json:\par
+\par
+\{\par
+  "name": "localdai",\par
+  "version": "0.1.0",\par
+  "description": "This is an exercise to transform localETH into localDAI",\par
+  "main": "index.js",\par
+  "scripts": \{\par
+    "test": "echo \\"Error: no test specified\\" && exit 1"\par
+  \},\par
+  "author": "Club de Letras",\par
+  "license": "AGPL-3.0-only"\par
+\}\par
+\par
+\par
+Is this OK? (yes)\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\par
+\cf0 $ git init\par
+Initialized empty Git repository in C:/Users/MultiEBD/Desktop/CODER/LocalDAI/.git/\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git status\par
+On branch master\par
+\par
+No commits yet\par
+\par
+Untracked files:\par
+  (use "git add <file>..." to include in what will be committed)\par
+        \cf5 package.json\par
+\par
+\cf0 nothing added to commit but untracked files present (use "git add" to track)\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git add .\par
+warning: LF will be replaced by CRLF in package.json.\par
+The file will have its original line endings in your working directory\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git status\par
+On branch master\par
+\par
+No commits yet\par
+\par
+Changes to be committed:\par
+  (use "git rm --cached <file>..." to unstage)\par
+        \cf1 new file:   package.json\par
+\par
+\par
+MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git commit -m "initial commit"\par
+[master (root-commit) d273ecb] initial commit\par
+ 1 file changed, 11 insertions(+)\par
+ create mode 100644 package.json\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git log\par
+\cf3 commit d273ecb8df071f3bb5bb14938e3194473a8ca7af (\cf6 HEAD -> \cf7 master\cf3 )\par
+\cf0 Author: Julio Moros <jjmorosr@gmail.com>\par
+Date:   Sun Mar 15 22:18:35 2020 -0400\par
+\par
+    initial commit\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ mkdir MetaCoin\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ cd MetaCoin\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI/MetaCoin\cf4  (master)\par
+\cf0 $ truffle unbox metacoin\par
+- Preparing to download box\par
+\u8730? Preparing to download box\par
+- Downloading\par
+\u8730? Downloading\par
+- cleaning up temporary files\par
+\u8730? cleaning up temporary files\par
+- Setting up box\par
+\u8730? Setting up box\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI/MetaCoin\cf4  (master)\par
+\cf0 $ git remote add origin {\field{\*\fldinst{HYPERLINK "https://github.com/jjmr007/localDAI"}}{\fldrslt{\ul\cf8 https://github.com/jjmr007/localDAI}}}\f0\fs18\par
+fatal: failed to stat 'C:/Users/MultiEBD/Desktop/CODER/LocalDAI/MetaCoin': No such file or directory\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI/MetaCoin\par
+\cf0 $ git stat\par
+fatal: failed to stat 'C:/Users/MultiEBD/Desktop/CODER/LocalDAI/MetaCoin': No such file or directory\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI/MetaCoin\par
+\cf0 $ cd ..\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git stat\par
+git: 'stat' is not a git command. See 'git --help'.\par
+\par
+The most similar commands are\par
+        status\par
+        stage\par
+        stash\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git status\par
+On branch master\par
+Untracked files:\par
+  (use "git add <file>..." to include in what will be committed)\par
+        \cf5 .gitattributes\par
+\cf0         \cf5 LICENSE\par
+\cf0         \cf5 contracts/\par
+\cf0         \cf5 developing/\par
+\cf0         \cf5 migrations/\par
+\cf0         \cf5 test/\par
+\cf0         \cf5 truffle-config.js\par
+\par
+\cf0 nothing added to commit but untracked files present (use "git add" to track)\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git add --all\par
+warning: LF will be replaced by CRLF in .gitattributes.\par
+The file will have its original line endings in your working directory\par
+warning: LF will be replaced by CRLF in LICENSE.\par
+The file will have its original line endings in your working directory\par
+warning: LF will be replaced by CRLF in contracts/ConvertLib.sol.\par
+The file will have its original line endings in your working directory\par
+warning: LF will be replaced by CRLF in contracts/MetaCoin.sol.\par
+The file will have its original line endings in your working directory\par
+warning: LF will be replaced by CRLF in contracts/Migrations.sol.\par
+The file will have its original line endings in your working directory\par
+warning: LF will be replaced by CRLF in migrations/1_initial_migration.js.\par
+The file will have its original line endings in your working directory\par
+warning: LF will be replaced by CRLF in migrations/2_deploy_contracts.js.\par
+The file will have its original line endings in your working directory\par
+warning: LF will be replaced by CRLF in test/TestMetaCoin.sol.\par
+The file will have its original line endings in your working directory\par
+warning: LF will be replaced by CRLF in test/metacoin.js.\par
+The file will have its original line endings in your working directory\par
+warning: LF will be replaced by CRLF in truffle-config.js.\par
+The file will have its original line endings in your working directory\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git status\par
+On branch master\par
+Changes to be committed:\par
+  (use "git restore --staged <file>..." to unstage)\par
+        \cf1 new file:   .gitattributes\par
+\cf0         \cf1 new file:   LICENSE\par
+\cf0         \cf1 new file:   contracts/ConvertLib.sol\par
+\cf0         \cf1 new file:   contracts/MetaCoin.sol\par
+\cf0         \cf1 new file:   contracts/Migrations.sol\par
+\cf0         \cf1 new file:   developing/LocalDai.sol\par
+\cf0         \cf1 new file:   developing/LocalEthereum.sol\par
+\cf0         \cf1 new file:   developing/dai.sol\par
+\cf0         \cf1 new file:   migrations/1_initial_migration.js\par
+\cf0         \cf1 new file:   migrations/2_deploy_contracts.js\par
+\cf0         \cf1 new file:   test/TestMetaCoin.sol\par
+\cf0         \cf1 new file:   test/metacoin.js\par
+\cf0         \cf1 new file:   truffle-config.js\par
+\par
+\par
+MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git commit -m "using MetaCoin truffle box to complete the project scaffold"\par
+[master a364267] using MetaCoin truffle box to complete the project scaffold\par
+ 13 files changed, 2088 insertions(+)\par
+ create mode 100644 .gitattributes\par
+ create mode 100644 LICENSE\par
+ create mode 100644 contracts/ConvertLib.sol\par
+ create mode 100644 contracts/MetaCoin.sol\par
+ create mode 100644 contracts/Migrations.sol\par
+ create mode 100644 developing/LocalDai.sol\par
+ create mode 100644 developing/LocalEthereum.sol\par
+ create mode 100644 developing/dai.sol\par
+ create mode 100644 migrations/1_initial_migration.js\par
+ create mode 100644 migrations/2_deploy_contracts.js\par
+ create mode 100644 test/TestMetaCoin.sol\par
+ create mode 100644 test/metacoin.js\par
+ create mode 100644 truffle-config.js\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git log\par
+\cf3 commit a3642673311a92d17e9438aa219b817f8dc463a1 (\cf6 HEAD -> \cf7 master\cf3 )\par
+\cf0 Author: Julio Moros <jjmorosr@gmail.com>\par
+Date:   Sun Mar 15 23:30:13 2020 -0400\par
+\par
+    using MetaCoin truffle box to complete the project scaffold\par
+\par
+\cf3 commit d273ecb8df071f3bb5bb14938e3194473a8ca7af\par
+\cf0 Author: Julio Moros <jjmorosr@gmail.com>\par
+Date:   Sun Mar 15 22:18:35 2020 -0400\par
+\par
+    initial commit\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git push -u origin master\par
+fatal: 'origin' does not appear to be a git repository\par
+fatal: Could not read from remote repository.\par
+\par
+Please make sure you have the correct access rights\par
+and the repository exists.\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git remote add origin {\field{\*\fldinst{HYPERLINK "https://github.com/jjmr007/localDAI"}}{\fldrslt{\ul\cf8 https://github.com/jjmr007/localDAI}}}\f0\fs18\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git push -u origin master\par
+To {\field{\*\fldinst{HYPERLINK "https://github.com/jjmr007/localDAI"}}{\fldrslt{\ul\cf8 https://github.com/jjmr007/localDAI}}}\f0\fs18\par
+ \cf5 ! [rejected]       \cf0  master -> master (fetch first)\par
+\cf5 error: failed to push some refs to '{\field{\*\fldinst{HYPERLINK "https://github.com/jjmr007/localDAI"}}{\fldrslt{\ul\cf8 https://github.com/jjmr007/localDAI}}}\f0\fs18 '\par
+\cf3 hint: Updates were rejected because the remote contains work that you do\par
+hint: not have locally. This is usually caused by another repository pushing\par
+hint: to the same ref. You may want to first integrate the remote changes\par
+hint: (e.g., 'git pull ...') before pushing again.\par
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git pull {\field{\*\fldinst{HYPERLINK "https://github.com/jjmr007/localDAI"}}{\fldrslt{\ul\cf8 https://github.com/jjmr007/localDAI}}}\f0\fs18  master\par
+warning: no common commits\par
+remote: Enumerating objects: 4, done.\par
+remote: Counting objects: 100% (4/4), done.\par
+remote: Compressing objects: 100% (4/4), done.\par
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0\par
+Unpacking objects: 100% (4/4), 12.49 KiB | 94.00 KiB/s, done.\par
+From {\field{\*\fldinst{HYPERLINK "https://github.com/jjmr007/localDAI"}}{\fldrslt{\ul\cf8 https://github.com/jjmr007/localDAI}}}\f0\fs18\par
+ * branch            master     -> FETCH_HEAD\par
+fatal: refusing to merge unrelated histories\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git status\par
+On branch master\par
+nothing to commit, working tree clean\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git pull origin master --allow-unrelated-histories\par
+From {\field{\*\fldinst{HYPERLINK "https://github.com/jjmr007/localDAI"}}{\fldrslt{\ul\cf8 https://github.com/jjmr007/localDAI}}}\f0\fs18\par
+ * branch            master     -> FETCH_HEAD\par
+ * [new branch]      master     -> origin/master\par
+CONFLICT (add/add): Merge conflict in LICENSE\par
+Auto-merging LICENSE\par
+Automatic merge failed; fix conflicts and then commit the result.\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master|MERGING)\par
+\cf0 $ git pull origin master --allow-unrelated-histories\par
+error: Pulling is not possible because you have unmerged files.\par
+\cf3 hint: Fix them up in the work tree, and then use 'git add/rm <file>'\par
+hint: as appropriate to mark resolution and make a commit.\par
+\cf0 fatal: Exiting because of an unresolved conflict.\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master|MERGING)\par
+\cf0 $ git status\par
+On branch master\par
+You have unmerged paths.\par
+  (fix conflicts and run "git commit")\par
+  (use "git merge --abort" to abort the merge)\par
+\par
+Changes to be committed:\par
+        \cf1 new file:   README.md\par
+\par
+\cf0 Unmerged paths:\par
+  (use "git add <file>..." to mark resolution)\par
+        \cf5 both added:      LICENSE\par
+\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master|MERGING)\par
+\cf0 $ git add --all\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master|MERGING)\par
+\cf0 $ git status\par
+On branch master\par
+All conflicts fixed but you are still merging.\par
+  (use "git commit" to conclude merge)\par
+\par
+Changes to be committed:\par
+        \cf1 deleted:    LICENSE\par
+\cf0         \cf1 new file:   README.md\par
+\par
+\par
+MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master|MERGING)\par
+\cf0 $ git commit -m "resolving conflicts with GitHub repo"\par
+[master 35cee17] resolving conflicts with GitHub repo\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git log\par
+\cf3 commit 35cee1783164ef77bafdb4d3de22a2f67104d839 (\cf6 HEAD -> \cf7 master\cf3 )\par
+\cf0 Merge: a364267 3c3b589\par
+Author: Julio Moros <jjmorosr@gmail.com>\par
+Date:   Sun Mar 15 23:43:06 2020 -0400\par
+\par
+    resolving conflicts with GitHub repo\par
+\par
+\cf3 commit a3642673311a92d17e9438aa219b817f8dc463a1\par
+\cf0 Author: Julio Moros <jjmorosr@gmail.com>\par
+Date:   Sun Mar 15 23:30:13 2020 -0400\par
+\par
+    using MetaCoin truffle box to complete the project scaffold\par
+\par
+\cf3 commit d273ecb8df071f3bb5bb14938e3194473a8ca7af\par
+\cf0 Author: Julio Moros <jjmorosr@gmail.com>\par
+Date:   Sun Mar 15 22:18:35 2020 -0400\par
+\par
+    initial commit\par
+\par
+\cf3 commit 3c3b589451685c7640cef421a80c23b3606127c5 (\cf9 origin/master\cf3 )\par
+\cf0 :...skipping...\par
+\cf3 commit 35cee1783164ef77bafdb4d3de22a2f67104d839 (\cf6 HEAD -> \cf7 master\cf3 )\par
+\cf0 Merge: a364267 3c3b589\par
+Author: Julio Moros <jjmorosr@gmail.com>\par
+Date:   Sun Mar 15 23:43:06 2020 -0400\par
+\par
+    resolving conflicts with GitHub repo\par
+\par
+\cf3 commit a3642673311a92d17e9438aa219b817f8dc463a1\par
+\cf0 Author: Julio Moros <jjmorosr@gmail.com>\par
+Date:   Sun Mar 15 23:30:13 2020 -0400\par
+\par
+    using MetaCoin truffle box to complete the project scaffold\par
+\par
+\cf3 commit d273ecb8df071f3bb5bb14938e3194473a8ca7af\par
+\cf0 Author: Julio Moros <jjmorosr@gmail.com>\par
+Date:   Sun Mar 15 22:18:35 2020 -0400\par
+\par
+    initial commit\par
+\par
+\cf3 commit 3c3b589451685c7640cef421a80c23b3606127c5 (\cf9 origin/master\cf3 )\par
+\cf0 Author: jjmr007 <money.as.flow@gmail.com>\par
+Date:   Sun Mar 15 22:11:45 2020 -0400\par
+\par
+    Initial commit\par
+\b ~\par
+~\par
+~\par
+~\par
+~\par
+~\par
+~\par
+~\par
+~\par
+~\par
+~\par
+~\par
+~\par
+~\par
+~\par
+~\par
+~\par
+\par
+\cf1\b0 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git pull origin master --allow-unrelated-histories\par
+From {\field{\*\fldinst{HYPERLINK "https://github.com/jjmr007/localDAI"}}{\fldrslt{\ul\cf8 https://github.com/jjmr007/localDAI}}}\f0\fs18\par
+ * branch            master     -> FETCH_HEAD\par
+Already up to date.\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git push -u origin master\par
+Enumerating objects: 26, done.\par
+Counting objects: 100% (26/26), done.\par
+Delta compression using up to 4 threads\par
+Compressing objects: 100% (23/23), done.\par
+Writing objects: 100% (24/24), 16.65 KiB | 2.77 MiB/s, done.\par
+Total 24 (delta 3), reused 0 (delta 0)\par
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.\par
+remote: This repository moved. Please use the new location:\par
+remote:   {\field{\*\fldinst{HYPERLINK "https://github.com/jjmr007/LocalDAI.git"}}{\fldrslt{\ul\cf8 https://github.com/jjmr007/LocalDAI.git}}}\f0\fs18\par
+To {\field{\*\fldinst{HYPERLINK "https://github.com/jjmr007/localDAI"}}{\fldrslt{\ul\cf8 https://github.com/jjmr007/localDAI}}}\f0\fs18\par
+   3c3b589..35cee17  master -> master\par
+Branch 'master' set up to track remote branch 'master' from 'origin'.\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git config --global --unset credential.helper\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git status\par
+On branch master\par
+Your branch is up to date with 'origin/master'.\par
+\par
+Changes not staged for commit:\par
+  (use "git add <file>..." to update what will be committed)\par
+  (use "git restore <file>..." to discard changes in working directory)\par
+        \cf5 modified:   README.md\par
+\par
+\cf0 Untracked files:\par
+  (use "git add <file>..." to include in what will be committed)\par
+        \cf5 LICENSE\par
+\par
+\cf0 no changes added to commit (use "git add" and/or "git commit -a")\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git add --all\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git status\par
+On branch master\par
+Your branch is up to date with 'origin/master'.\par
+\par
+Changes to be committed:\par
+  (use "git restore --staged <file>..." to unstage)\par
+        \cf1 new file:   LICENSE\par
+\cf0         \cf1 modified:   README.md\par
+\par
+\par
+MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git commit -m "testing credential helper"\par
+[master 1ef2712] testing credential helper\par
+ 2 files changed, 888 insertions(+)\par
+ create mode 100644 LICENSE\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git push -u origin master\par
+Enumerating objects: 6, done.\par
+Counting objects: 100% (6/6), done.\par
+Delta compression using up to 4 threads\par
+Compressing objects: 100% (4/4), done.\par
+Writing objects: 100% (4/4), 22.06 KiB | 5.51 MiB/s, done.\par
+Total 4 (delta 2), reused 0 (delta 0)\par
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.\par
+remote: This repository moved. Please use the new location:\par
+remote:   {\field{\*\fldinst{HYPERLINK "https://github.com/jjmr007/LocalDAI.git"}}{\fldrslt{\ul\cf8 https://github.com/jjmr007/LocalDAI.git}}}\f0\fs18\par
+To {\field{\*\fldinst{HYPERLINK "https://github.com/jjmr007/localDAI"}}{\fldrslt{\ul\cf8 https://github.com/jjmr007/localDAI}}}\f0\fs18\par
+   35cee17..1ef2712  master -> master\par
+Branch 'master' set up to track remote branch 'master' from 'origin'.\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git status\par
+On branch master\par
+Your branch is up to date with 'origin/master'.\par
+\par
+Changes not staged for commit:\par
+  (use "git add <file>..." to update what will be committed)\par
+  (use "git restore <file>..." to discard changes in working directory)\par
+        \cf5 modified:   README.md\par
+\par
+\cf0 no changes added to commit (use "git add" and/or "git commit -a")\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git add --all\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git status\par
+On branch master\par
+Your branch is up to date with 'origin/master'.\par
+\par
+Changes to be committed:\par
+  (use "git restore --staged <file>..." to unstage)\par
+        \cf1 modified:   README.md\par
+\par
+\par
+MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git commit -m "trying again with credentials"\par
+[master 32f3a4f] trying again with credentials\par
+ 1 file changed, 1 insertion(+), 2 deletions(-)\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $ git push -u origin master\par
+Enumerating objects: 5, done.\par
+Counting objects: 100% (5/5), done.\par
+Delta compression using up to 4 threads\par
+Compressing objects: 100% (3/3), done.\par
+Writing objects: 100% (3/3), 310 bytes | 310.00 KiB/s, done.\par
+Total 3 (delta 2), reused 0 (delta 0)\par
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.\par
+remote: This repository moved. Please use the new location:\par
+remote:   {\field{\*\fldinst{HYPERLINK "https://github.com/jjmr007/LocalDAI.git"}}{\fldrslt{\ul\cf8 https://github.com/jjmr007/LocalDAI.git}}}\f0\fs18\par
+To {\field{\*\fldinst{HYPERLINK "https://github.com/jjmr007/localDAI"}}{\fldrslt{\ul\cf8 https://github.com/jjmr007/localDAI}}}\f0\fs18\par
+   1ef2712..32f3a4f  master -> master\par
+Branch 'master' set up to track remote branch 'master' from 'origin'.\par
+\par
+\cf1 MultiEBD@MultiEBD-PC \cf2 MINGW64 \cf3 ~/Desktop/CODER/LocalDAI\cf4  (master)\par
+\cf0 $\par
+\f1\fs22\par
+}
+ 
