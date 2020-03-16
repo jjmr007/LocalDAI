@@ -1,0 +1,11 @@
+{
+  "name": "localdai",
+  "version": "0.1.0",
+  "description": "This is an exercise to transform localETH into localDAI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Club de Letras",
+  "license": "AGPL-3.0-only"
+}
