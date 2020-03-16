@@ -1,0 +1,5 @@
+*.sol linguist-language=Solidity
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+*.json linguist-language=JSON
+*.js linguist-language=JavaScript
